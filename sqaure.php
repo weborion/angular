@@ -7,8 +7,10 @@
         src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 </head>
 <body>
+<div>Find Square of Number Below:</div>
+
 <div ng-controller="myAppController" style="text-align:center">
-     <p style="font-size:28px;">Enter Number (Integer) to Find Square:
+     <p style="font-size:28px;">Enter Number  to Find Square:
  <input type="text" ng-model="number"/></p>
  <h2>Total Square of{{quantity}} is :{{calculateval(number)}}</h2>
 </div>
