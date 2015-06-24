@@ -7,7 +7,6 @@
         src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 </head>
 <body>
-<!-- <div>Find Square of Number Below:</div> -->
 
 <form class="form-horizontal">
 <h1>Demo Angular App with Directive and Dependency Injection</h1>  
@@ -18,12 +17,6 @@
      <label class="control-label" for="result">&nbsp; is&nbsp;{{calculateval(number)}} </label> 
     </div>
 </form>
-  <!-- </div>
-  div ng-controller="weboSqaureAppController" style="text-align:center">
-     <p style="font-size:28px;">Enter Number  to Find Square:
- <input type="text" ng-model="number"/></p>
- <h2>Total Square of{{quantity}} is :{{calculateval(number)}}</h2>
-</div> -->
 <script type="text/javascript">
  var weboSqaureAppModule = angular.module('weboSqaureAppModule', []);
     weboSqaureAppModule.controller('weboSqaureAppController', function($scope,calculateService) {
